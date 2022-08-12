@@ -1,0 +1,42 @@
+.navbar {
+  background-color: aqua;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-title {
+  color: black;
+  font-size: large;
+  font-weight: 800;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.postcard {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+
+.postcard-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.postcard-view .postcard-edit {
+  padding: 10px 10px;
+  font-size: 16px;
+}
+
+.post {
+  margin: 5rem;
+}
